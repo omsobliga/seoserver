@@ -17,6 +17,9 @@
   <p>Start it as a background process and log the output</p>
   <code> seoserver -p 4000 start > seoserver.log &</code> 
 
+  <h3>Installation</h3>
+  See <a href="./install.md">install.md</a>
+
   <h3>Telling GoogleBot to fetch from Seo Server</h3>
   <p>To tell GoogleBot that we are using ajaxed content we simply add to our sites index.html file the Google specific <a href="https://developers.google.com/webmasters/ajax-crawling/docs/specification">meta tag</a>. If you view the source of this page you can see we have included the tag below. </p>
   <code>&lt;meta name="fragment" content="!"&gt;</code>
