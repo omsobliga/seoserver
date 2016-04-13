@@ -1,0 +1,17 @@
+flow:
+  - master
+
+deploy_type:
+  - docker
+
+test_type:
+  - pylint:
+      script: |
+        echo "ok"
+
+build:
+  script: |
+    npm install
+    
+slack_channel: '@lih'
+mail_to: 'lih@zhihu.com'
