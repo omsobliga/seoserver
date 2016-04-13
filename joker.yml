@@ -6,8 +6,7 @@ deploy_type:
 
 test_type:
   - pylint:
-      script: |
-        echo "ok"
+      package: seoserver
 
 build:
   script: |
